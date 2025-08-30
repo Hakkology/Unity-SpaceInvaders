@@ -38,12 +38,12 @@ public class MysteryShip : Invader
         // Yönü rastgele belirle: soldan sağa veya sağdan sola
         if (Random.value > 0.5f)
         {
-            transform.position = new Vector3(_leftEdge.x, 13, 0); // Sol kenardan başla
+            transform.position = new Vector3(_leftEdge.x, 12, 0); // Sol kenardan başla
             _direction = Vector3.right;
         }
         else
         {
-            transform.position = new Vector3(_rightEdge.x, 13, 0); // Sağ kenardan başla
+            transform.position = new Vector3(_rightEdge.x, 12, 0); // Sağ kenardan başla
             _direction = Vector3.left;
         }
 

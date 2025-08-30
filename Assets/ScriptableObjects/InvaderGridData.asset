@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35a15130c1754b3a8ed183e765a18b4, type: 3}
+  m_Name: InvaderGridData
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 8764197475256693874, guid: a516f906045b78d41947431ea8f246b3, type: 3}
+  - {fileID: 4957866452809227062, guid: 407e6ebb6056f9f4ebaafc958df93371, type: 3}
+  - {fileID: 637337218612849119, guid: 20873209ef577bc4abae4fc5a6243dc7, type: 3}
+  - {fileID: 4957866452809227062, guid: 407e6ebb6056f9f4ebaafc958df93371, type: 3}
+  - {fileID: 8764197475256693874, guid: a516f906045b78d41947431ea8f246b3, type: 3}
+  rows: 5
+  columns: 11
+  rowSpan: 2
+  columnSpan: 2
+  gridOffset: 3

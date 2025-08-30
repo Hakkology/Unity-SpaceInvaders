@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class GameState : MonoBehaviour
@@ -11,6 +12,9 @@ public class GameState : MonoBehaviour
     // Player stats
     public int PlayerScore { get; private set; }
     public int PlayerHealth { get; private set; }
+
+    public TextMeshProUGUI healthText;
+    public TextMeshProUGUI scoreText;
 
     // Game settings
     public int startingHealth = 3;
@@ -36,6 +40,7 @@ public class GameState : MonoBehaviour
     public void AddScore(int points)
     {
         PlayerScore += points;
+        UpdateScore();
         Debug.Log("Player Score: " + PlayerScore);
     }
 
@@ -43,6 +48,7 @@ public class GameState : MonoBehaviour
     public void TakeDamage(int damage)
     {
         PlayerHealth -= damage;
+        UpdateHealth();
         Debug.Log("Player Health: " + PlayerHealth);
 
         if (PlayerHealth <= 0)
@@ -56,6 +62,7 @@ public class GameState : MonoBehaviour
     {
         PlayerScore = 0;
         PlayerHealth = startingHealth;
+
         Debug.Log("Game reset. Score: " + PlayerScore + ", Health: " + PlayerHealth);
     }
 
@@ -70,5 +77,15 @@ public class GameState : MonoBehaviour
     private void HandleGameOver()
     {
         ResetGame();
+    }
+
+    public void UpdateHealth()
+    {
+        healthText.text = "Hp: " + PlayerHealth + "";
+    }
+
+    public void UpdateScore()
+    {
+        scoreText.text = "Score: " + PlayerScore + "";
     }
 }

@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
         {
             if (invaderGrid != null)
             {
+                GameState.Instance.TakeDamage(1);
                 invaderGrid.RestartGame();
             }
         }

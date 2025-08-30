@@ -9,4 +9,5 @@ public class InvaderData : ScriptableObject
 
     [Tooltip("Animasyonun her kare arasında geçeceği süre (saniye cinsinden).")]
     public float animationTime = 1.0f;
+    public int score = 10;
 }

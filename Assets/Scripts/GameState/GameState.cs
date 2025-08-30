@@ -62,6 +62,8 @@ public class GameState : MonoBehaviour
     {
         PlayerScore = 0;
         PlayerHealth = startingHealth;
+        UpdateHealth();
+        UpdateScore();
 
         Debug.Log("Game reset. Score: " + PlayerScore + ", Health: " + PlayerHealth);
     }

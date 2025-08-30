@@ -16,3 +16,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e3509581523860f638f211384791fef5, type: 3}
   - {fileID: 21300000, guid: 2479f4f85223b04d096786ed090fb69f, type: 3}
   animationTime: 0.37
+  score: 30

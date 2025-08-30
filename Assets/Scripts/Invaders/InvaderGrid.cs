@@ -146,10 +146,10 @@ public class InvaderGrid : MonoBehaviour
         }
     }
 
-    private void OnInvaderKilled()
+    private void OnInvaderKilled(int score)
     {
         this.amountKilled++;
-
+        GameState.Instance.AddScore(score);
 
         if (amountKilled >= totalInvaders)
         {

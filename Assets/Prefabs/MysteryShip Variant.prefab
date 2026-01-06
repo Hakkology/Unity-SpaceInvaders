@@ -36,17 +36,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MysteryShip Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3526904362168168015, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4828498929395088338, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
       propertyPath: invaderData
       value: 
       objectReference: {fileID: 11400000, guid: ef48ac421ac9619cebea6bc126022a18, type: 2}
     - target: {fileID: 7273225476344931961, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -17.12
       objectReference: {fileID: 0}
     - target: {fileID: 7273225476344931961, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 11.5
       objectReference: {fileID: 0}
     - target: {fileID: 7273225476344931961, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -79,6 +83,14 @@ PrefabInstance:
     - target: {fileID: 7273225476344931961, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553194031867464722, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553194031867464722, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7553194031867464722, guid: 533382528e25da145b0168f5a7c5f9d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x

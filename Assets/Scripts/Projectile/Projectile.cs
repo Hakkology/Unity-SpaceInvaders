@@ -15,6 +15,10 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) 
     {
-        OnDestroyed?.Invoke(this); // Action tetikleniyor
+        Bunker bunker = other.GetComponent<Bunker>();
+        if (bunker == null || bunker.CheckCollision(this.GetComponent<BoxCollider2D>(), transform.position))
+        {
+            OnDestroyed?.Invoke(this); 
+        }
     }
 }

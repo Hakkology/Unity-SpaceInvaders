@@ -14,8 +14,20 @@ public class MysteryShip : Invader
         _leftEdge = Camera.main.ViewportToWorldPoint(Vector3.zero);
         _rightEdge = Camera.main.ViewportToWorldPoint(Vector3.right);
 
+        // Invader sınıfındaki _killed olayına abone oluyoruz.
+        // Böylece Invader.OnTriggerEnter2D çalıştığında _killed null olmaz ve skor GameState'e eklenir.
+        this._killed += HandleKilled;
+
         // MysteryShip hareketini ve saldırı mekanizmasını başlat
         InvokeRepeating(nameof(SpawnMysteryShip), 2f, 8.0f);
+    }
+
+    private void HandleKilled(int score)
+    {
+        if (GameState.Instance != null)
+        {
+            GameState.Instance.AddScore(score);
+        }
     }
 
     void Update()

@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 129001260}
   - component: {fileID: 129001262}
   - component: {fileID: 129001261}
+  - component: {fileID: 129001263}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -366,7 +367,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.625, y: 2}
+  m_Size: {x: 3, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &129001262
 SpriteRenderer:
@@ -420,6 +421,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &129001263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129001259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2cda21af9eb9a6629ea016299ae9244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splat: {fileID: 2800000, guid: 92edb3d988e41995681cd700ac1db543, type: 3}
 --- !u!1 &158716382
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,6 +730,7 @@ GameObject:
   - component: {fileID: 451217023}
   - component: {fileID: 451217025}
   - component: {fileID: 451217024}
+  - component: {fileID: 451217026}
   m_Layer: 0
   m_Name: Bunker (3)
   m_TagString: Untagged
@@ -781,7 +796,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.625, y: 2}
+  m_Size: {x: 3, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &451217025
 SpriteRenderer:
@@ -835,6 +850,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &451217026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451217022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2cda21af9eb9a6629ea016299ae9244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splat: {fileID: 2800000, guid: 92edb3d988e41995681cd700ac1db543, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,14 +1003,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 736409174118010804, guid: 43f87c176956c94f8b45db3f03e40cef, type: 3}
-      propertyPath: m_Size.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 736409174118010804, guid: 43f87c176956c94f8b45db3f03e40cef, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5915479341770485225, guid: 43f87c176956c94f8b45db3f03e40cef, type: 3}
       propertyPath: m_Name
       value: MysteryShip Variant
@@ -1003,6 +1023,7 @@ GameObject:
   - component: {fileID: 575338856}
   - component: {fileID: 575338858}
   - component: {fileID: 575338857}
+  - component: {fileID: 575338859}
   m_Layer: 0
   m_Name: Bunker (1)
   m_TagString: Untagged
@@ -1068,7 +1089,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.625, y: 2}
+  m_Size: {x: 3, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &575338858
 SpriteRenderer:
@@ -1122,6 +1143,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &575338859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575338855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2cda21af9eb9a6629ea016299ae9244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splat: {fileID: 2800000, guid: 92edb3d988e41995681cd700ac1db543, type: 3}
 --- !u!1 &621405421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,6 +1642,7 @@ GameObject:
   - component: {fileID: 1797099446}
   - component: {fileID: 1797099448}
   - component: {fileID: 1797099447}
+  - component: {fileID: 1797099449}
   m_Layer: 0
   m_Name: Bunker (2)
   m_TagString: Untagged
@@ -1673,7 +1708,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.625, y: 2}
+  m_Size: {x: 3, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &1797099448
 SpriteRenderer:
@@ -1727,6 +1762,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1797099449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797099445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2cda21af9eb9a6629ea016299ae9244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splat: {fileID: 2800000, guid: 92edb3d988e41995681cd700ac1db543, type: 3}
 --- !u!1 &1801579533
 GameObject:
   m_ObjectHideFlags: 0
